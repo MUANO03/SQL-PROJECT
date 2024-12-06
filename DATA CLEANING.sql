@@ -1,4 +1,6 @@
  -- DATA CLEANING
+ -- https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&page=8&pageSize=5
+
 
 select*
 from telecom_customer_churn;
@@ -12,7 +14,7 @@ from telecom_customer_churn;
 -- 1.REMOVAL OF DUPLICATES
 -- CREATION OF A TABLE TO APPLY CLEANING METHODS
 
--- TABLE CREATION 
+-- TABLE CREATION    
 create table telecom_cust
 like telecom_customer_churn;
 
