@@ -113,8 +113,8 @@ CREATE TABLE `telecom_cust2` (
   `Total Revenue` double DEFAULT NULL,
   `Customer Status` text,
   `Churn Category` text,
-  `Churn Reason` text
-  -- `row_num` int
+  `Churn Reason` text,
+  `row_num` int
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
