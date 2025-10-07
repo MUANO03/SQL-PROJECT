@@ -1,7 +1,7 @@
 # SQL-PROJECT
 Customer Insights Project – SQL & Data Analysis
 
-Goal:
+Objective:
 To analyze large customer datasets to identify the top-performing cities by revenue and customer engagement.
 
 Process:
