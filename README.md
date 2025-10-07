@@ -1,20 +1,11 @@
 # SQL-PROJECT
 Customer Insights Project – SQL & Data Analysis
 
-Objective:
-To analyze large customer datasets to identify the top-performing cities by revenue and customer engagement.
+This project focused on identifying top-performing cities based on customer transactions and revenue. I extracted, cleaned, and analyzed large datasets using SQL Server, leveraging advanced techniques such as CTEs (Common Table Expressions) and subqueries to merge and transform data across multiple relational tables.
 
-Process:
- 1. Data Extraction & Cleaning:
- • Pulled customer and transaction data from a relational database using SQL Server.
- • Used CTEs (Common Table Expressions) and subqueries to merge multiple tables (customers, transactions, locations).
- • Removed duplicates and handled missing values by applying filtering conditions (WHERE, IS NOT NULL) and window functions like ROW_NUMBER().
- 2. Data Validation:
- • Verified the integrity of customer IDs and revenue fields using aggregation queries and cross-checks with control totals.
- • Conducted accuracy testing by comparing SQL outputs with summary reports—achieved over 80% validation accuracy.
- 3. Analysis & Insights:
- • Designed ranking metrics using SQL functions such as RANK() and SUM() to calculate city-level revenue performance.
- • Identified that certain urban regions contributed disproportionately to revenue, influencing targeted marketing strategies.
+Through a combination of data validation checks and aggregation logic (SUM(), RANK(), and GROUP BY), I ensured the dataset maintained an accuracy rate above 80%. Once cleaned, I designed ranking metrics to pinpoint cities driving the highest sales and customer engagement.
 
-Outcome:
-Provided actionable insights that helped management prioritize high-performing cities for promotional campaigns.
+The findings revealed regional performance trends that guided the marketing team to focus on high-value areas, improving targeted campaign efficiency and budget allocation.
+
+Tools Used: SQL Server | Excel | Data Validation | Query Optimization
+Key Impact: Enabled data-driven marketing prioritization through accurate regional insights.
